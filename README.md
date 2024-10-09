@@ -45,5 +45,5 @@ First, a set() called repeat is created to prevent duplicates. The digits of the
 >```
 > * This code displays bind mounts configured for the Docker container 'ossp'.
 
-> By entering the commands above, you can obtain output results similar to the following image.
-> <img src ="C:\Users\kimha\OneDrive\사진\Week5_Assignment_2020310852_KimHanBalk.png" with="500px" height="300px"/>
+By entering the commands above, you can obtain output results similar to the following image.
+<img src ="C:/Users/kimha/OneDrive/사진/Week5_Assignment_2020310852_KimHanBalk.png" with="500px" height="300px"/>

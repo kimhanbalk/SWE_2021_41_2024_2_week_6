@@ -26,22 +26,22 @@ First, a set() called repeat is created to prevent duplicates. The digits of the
 ---
 
 ## Week 5 Assignment
-> ```
+> ```bash
 > docker exec ossp cat /etc/os-release
 > ```
 > * This code is used to output the operating system information within the Docker container named 'ossp'.
 
-> ```
+> ```bash
 > docker exec ossp git --version
 > ```
 > * This code retrieves the version of Git installed the Docker container 'ossp'.
 
-> ```
+> ```bash
 > docker exec ossp python3 --version
 > ```
 > * This code retrieves the version of Python installed the Docker container 'ossp'.
 
-> ```
+> ```bash
 > docker inspect --format"{{ .HostConfig.Binds }}" ossp
 > ```
 > * This code displays bind mounts configured for the Docker container 'ossp'.

@@ -27,11 +27,9 @@ First, a set() called repeat is created to prevent duplicates. The digits of the
 ## Week 5 Assignment
 
 > docker exec ossp cat /etc/os-release
-
 * This code is used to output the operating system information within the Docker container named 'ossp'.
 
 > docker exec ossp git --version
-
 * This code retrieves the version of Git installed the Docker container 'ossp'.
 
 > docker exec ossp python3 --version

@@ -1,7 +1,10 @@
 # SWE_2021_41_2024_2_week_6
+
+---
+
 ## Week 4 Assignment
 
-__unordered list___(*,-)
+__unordered list__(*,-)
 
 * https://github.com/kimhanbalk/SWE_2021_41_2024_2_week_4
 
@@ -26,13 +29,25 @@ First, a set() called repeat is created to prevent duplicates. The digits of the
 ## Week 5 Assignment
 
 > docker exec ossp cat /etc/os-release
->> This code is used to output the operating system information within the Docker container named 'ossp'.
+
+__unordered list__(*)
+
+* This code is used to output the operating system information within the Docker container named 'ossp'.
 
 > docker exec ossp git --version
->> This code retrieves the version of Git installed the Docker container 'ossp'.
+
+__unordered list__(*)
+
+* This code retrieves the version of Git installed the Docker container 'ossp'.
 
 > docker exec ossp python3 --version
->> This code retrieves the version of Python installed the Docker container 'ossp'.
+
+__unordered list__(*)
+
+* This code retrieves the version of Python installed the Docker container 'ossp'.
 
 > docker inspect --format"{{ .HostConfig.Binds }}" ossp
->> This code displays bind mounts configured for the Docker container 'ossp'.
+
+__unordered list__(*)
+
+* This code displays bind mounts configured for the Docker container 'ossp'.

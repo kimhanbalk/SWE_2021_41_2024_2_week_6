@@ -4,8 +4,6 @@
 
 ## Week 4 Assignment
 
-__unordered list__(*,-)
-
 * https://github.com/kimhanbalk/SWE_2021_41_2024_2_week_4
 
 ```python
@@ -21,7 +19,7 @@ def isHappy(n):
   return True
 ```
 
-- This code is designed to find happy number that satiesfies a specific mathematical rule. A happy number is defined as a number where, when the sum of the squares of its digits is repeatedly calculated, the final result eventually becomes 1.
+* This code is designed to find happy number that satiesfies a specific mathematical rule. A happy number is defined as a number where, when the sum of the squares of its digits is repeatedly calculated, the final result eventually becomes 1.
 First, a set() called repeat is created to prevent duplicates. The digits of the given number are extracted and the sum of their squares is calculated. If summed value becomes 1, the function returns true and exits loop. If the value is not 1, it checks if the value exists in the repeat set. If it has already been calculated before, it indicates an infinite loop, so the function returns false and exits loop. If the value has not been calculated yet, it is added to the repeat set and continues the loop again.
 
 ---
@@ -30,24 +28,16 @@ First, a set() called repeat is created to prevent duplicates. The digits of the
 
 > docker exec ossp cat /etc/os-release
 
-__unordered list__(*)
-
 * This code is used to output the operating system information within the Docker container named 'ossp'.
 
 > docker exec ossp git --version
-
-__unordered list__(*)
 
 * This code retrieves the version of Git installed the Docker container 'ossp'.
 
 > docker exec ossp python3 --version
 
-__unordered list__(*)
-
 * This code retrieves the version of Python installed the Docker container 'ossp'.
 
 > docker inspect --format"{{ .HostConfig.Binds }}" ossp
-
-__unordered list__(*)
 
 * This code displays bind mounts configured for the Docker container 'ossp'.

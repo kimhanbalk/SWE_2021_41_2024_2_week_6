@@ -46,4 +46,4 @@ First, a set() called repeat is created to prevent duplicates. The digits of the
 > * This code displays bind mounts configured for the Docker container 'ossp'.
 
 By entering the commands above, you can obtain output results similar to the following image.
-![]("C:/Users/kimha/OneDrive/사진/Week5_Assignment_2020310852_KimHanBalk.png")
+![assignment5]("C:/Users/kimha/OneDrive/사진/Week5_Assignment_2020310852_KimHanBalk.png")

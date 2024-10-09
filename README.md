@@ -20,7 +20,7 @@ def isHappy(n):
 ```
 
 * This code is designed to find happy number that satiesfies a specific mathematical rule. A happy number is defined as a number where, when the sum of the squares of its digits is repeatedly calculated, the final result eventually becomes 1.
-First, a set() called repeat is created to prevent duplicates. The digits of the given number are extracted and the sum of their squares is calculated. If summed value becomes 1, the function returns true and exits loop. If the value is not 1, it checks if the value exists in the repeat set. If it has already been calculated before, it indicates an infinite loop, so the function returns false and exits loop. If the value has not been calculated yet, it is added to the repeat set and continues the loop again.
+\First, a set() called repeat is created to prevent duplicates. The digits of the given number are extracted and the sum of their squares is calculated. If summed value becomes 1, the function returns true and exits loop. If the value is not 1, it checks if the value exists in the repeat set. If it has already been calculated before, it indicates an infinite loop, so the function returns false and exits loop. If the value has not been calculated yet, it is added to the repeat set and continues the loop again.
 
 ---
 

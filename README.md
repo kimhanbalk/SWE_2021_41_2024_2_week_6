@@ -3,9 +3,9 @@
 
 __unordered list___(*,-)
 
-*https://github.com/kimhanbalk/SWE_2021_41_2024_2_week_4
+* https://github.com/kimhanbalk/SWE_2021_41_2024_2_week_4
 
-'''python
+```python
 def isHappy(n):
   repeat = set()
   while n!=1:
@@ -16,20 +16,23 @@ def isHappy(n):
     squared_sum = sum([x**2 for x in digits])
     n= squared_sum
   return True
-'''
+```
 
--This code is designed to find happy number that satiesfies a specific mathematical rule. A happy number is defined as a number where, when the sum of the squares of its digits is repeatedly calculated, the final result eventually becomes 1.
+- This code is designed to find happy number that satiesfies a specific mathematical rule. A happy number is defined as a number where, when the sum of the squares of its digits is repeatedly calculated, the final result eventually becomes 1.
+First, a set() called repeat is created to prevent duplicates. The digits of the given number are extracted and the sum of their squares is calculated. If summed value becomes 1, the function returns true and exits loop. If the value is not 1, it checks if the value exists in the repeat set. If it has already been calculated before, it indicates an infinite loop, so the function returns false and exits loop. If the value has not been calculated yet, it is added to the repeat set and continues the loop again.
+
+---
 
 ## Week 5 Assignment
 
 > docker exec ossp cat /etc/os-release
->> explanation
+>> This code is used to output the operating system information within the Docker container named 'ossp'.
 
 > docker exec ossp git --version
->> explanation
+>> This code retrieves the version of Git installed the Docker container 'ossp'.
 
 > docker exec ossp python3 --version
->> explanation
+>> This code retrieves the version of Python installed the Docker container 'ossp'.
 
 > docker inspect --format"{{ .HostConfig.Binds }}" ossp
->> explanation
+>> This code displays bind mounts configured for the Docker container 'ossp'.
